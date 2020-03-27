@@ -819,3 +819,158 @@
 	<math.h>
 	"define_info.h"
 
+1585305448 source:c:\users\edgar\desktop\tout\programmation\blufh.client\affichage.cpp
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	"affichage.h"
+	"souris_clavier.h"
+	"fonctions.h"
+	"v_affichage.h"
+	"Classes.h"
+
+1584885718 c:\users\edgar\desktop\tout\programmation\blufh.client\affichage.h
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	"Classes.h"
+
+1585327018 c:\users\edgar\desktop\tout\programmation\blufh.client\classes.h
+	"souris_clavier.h"
+	"define_info.h"
+
+1584738880 c:\users\edgar\desktop\tout\programmation\blufh.client\souris_clavier.h
+	<iostream>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<string>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<math.h>
+	"fonctions.h"
+
+1585326755 c:\users\edgar\desktop\tout\programmation\blufh.client\fonctions.h
+	<sstream>
+
+1585326463 c:\users\edgar\desktop\tout\programmation\blufh.client\define_info.h
+
+1573394786 c:\users\edgar\desktop\tout\programmation\blufh.client\v_affichage.h
+	"Classes.h"
+	"define_info.h"
+
+1585304058 source:c:\users\edgar\desktop\tout\programmation\blufh.client\classes.cpp
+	"Classes.h"
+	"affichage.h"
+	"define_info.h"
+	"f_map.h"
+
+1585328063 c:\users\edgar\desktop\tout\programmation\blufh.client\f_map.h
+	"define_info.h"
+	"Classes.h"
+
+1585343266 source:c:\users\edgar\desktop\tout\programmation\blufh.client\client_sockets.cpp
+	"client_sockets.h"
+	"sockets.h"
+
+1585320720 c:\users\edgar\desktop\tout\programmation\blufh.client\client_sockets.h
+	<winsock2.h>
+	<cstdio>
+	<iostream>
+	"sockets.h"
+
+1585346581 c:\users\edgar\desktop\tout\programmation\blufh.client\sockets.h
+
+1584643162 source:c:\users\edgar\desktop\tout\programmation\blufh.client\collisions.cpp
+
+1585305659 source:c:\users\edgar\desktop\tout\programmation\blufh.client\f_main.cpp
+	"f_main.h"
+	"Classes.h"
+
+1585257732 c:\users\edgar\desktop\tout\programmation\blufh.client\f_main.h
+	"Classes.h"
+
+1585326783 source:c:\users\edgar\desktop\tout\programmation\blufh.client\fonctions.cpp
+	<stdio.h>
+	<time.h>
+	<iostream>
+	<stdlib.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<math.h>
+	"fonctions.h"
+
+1584882496 source:c:\users\edgar\desktop\tout\programmation\blufh.client\get.cpp
+	"Classes.h"
+	"affichage.h"
+	"define_info.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1585327033 source:c:\users\edgar\desktop\tout\programmation\blufh.client\initialisations.cpp
+	"Classes.h"
+	"affichage.h"
+	"define_info.h"
+
+1585329840 source:c:\users\edgar\desktop\tout\programmation\blufh.client\map.cpp
+	"map.h"
+	"affichage.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"f_map.h"
+	"fonctions.h"
+	"Classes.h"
+
+1585326448 c:\users\edgar\desktop\tout\programmation\blufh.client\map.h
+	<allegro5/allegro.h>
+	"define_info.h"
+	"Classes.h"
+
+1585327370 source:c:\users\edgar\desktop\tout\programmation\blufh.client\souris_clavier.cpp
+	<iostream>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<string>
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<math.h>
+	"fonctions.h"
+	"souris_clavier.h"
+	"Classes.h"
+	"v_souris_clavier.h"
+	"define_info.h"
+	"affichage.h"
+	"f_map.h"
+
+1573834224 c:\users\edgar\desktop\tout\programmation\blufh.client\v_souris_clavier.h
+	"souris_clavier.h"
+

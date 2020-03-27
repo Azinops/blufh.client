@@ -19,7 +19,7 @@
 #include "f_map.h"
 #include "f_main.h"
 #include "sockets.h"
-#define IP "192.168.1.21"
+#define IP "192.168.1.12"
 #include <winsock2.h>
 #pragma comment(lib,"ws2_32.lib")
 

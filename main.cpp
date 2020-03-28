@@ -73,16 +73,21 @@ int main()
         OBTENIRMOUSEETKEY
         al_clear_to_color(beigef);
         recevoir_packet(recevoir_msg());
-        decoder_packet(joueurs);
-        coder_touches(joueurs[1]);
-        envoyer_msg(get_pack_touche());
+        fin=decoder_packet(joueurs);
+        if(!fin)
+        {
+            coder_touches(joueurs[1]);
+            envoyer_msg(get_pack_touche());
 
-        afficher_map();
-        afficher_joueurs(joueurs);
-        afficher_score(joueurs,font_scores);
-        afficher_explosions(joueurs);
+            afficher_map();
+            afficher_joueurs(joueurs);
+            afficher_score(joueurs,font_scores);
+            afficher_explosions(joueurs);
 
-        al_flip_display();
+            al_flip_display();
+        }
     }
+    fermer_socket();
+    fermer_socket_receptrice();
     return 0;
 }

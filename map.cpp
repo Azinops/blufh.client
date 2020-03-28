@@ -565,8 +565,9 @@ void decoder_mapr()
     decoder_map(PACKET_INFO);
     n_decode+=N_CASES_X*N_CASES_Y;
 }
-void decoder_packet(lance_bombe j[NBRE_JOUEURS-1])
+int decoder_packet(lance_bombe j[NBRE_JOUEURS-1])
 {
+    int f=0;
     n_decode=0;
     int k=0;
     double x=0.00;
@@ -688,7 +689,12 @@ void decoder_packet(lance_bombe j[NBRE_JOUEURS-1])
     {
         decoder_mapr();
     }
+    if(action=='F')
+    {
+        f=1;
+    }
     n_decode=0;
+    return f;
 }
 void coder_touches(lance_bombe j)
 {

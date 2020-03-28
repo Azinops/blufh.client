@@ -3,8 +3,9 @@
 
 #define AFFICHER_MSG 0
 #define PORT_EMETTEUR 29979
-#define PORT_RECEPTEUR 33333
+#define PORT_RECEPTEUR 80
 #define TAILLE_SOCKET 32000
+#define PROTOCOLE 0
 
 void init_w(char adr_ip[]);
 void init_soc_receptrice();

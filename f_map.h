@@ -31,7 +31,7 @@ void encoder_map();
 void encoder_map();
 double decoder_doubler();
 void recevoir_packet(char* packeti);
-void decoder_packet(lance_bombe j[NBRE_JOUEURS-1]);
+int decoder_packet(lance_bombe j[NBRE_JOUEURS-1]);
 void se_placer_apres_charactere(char charactere);
 char decoder_charactere();
 void decoder_mapr();

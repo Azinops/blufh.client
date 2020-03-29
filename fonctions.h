@@ -119,6 +119,7 @@
                                                             }
 #define ESCAPE if(al_key_down(&key,ALLEGRO_KEY_F4)){\
                 fin=1;fermer_socket();fermer_socket_receptrice();}
+#define TOUCHE_QUITTER ALLEGRO_KEY_F4
 
 int roundi(double variable);
 void erreur(const char*txt);

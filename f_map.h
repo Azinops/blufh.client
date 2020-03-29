@@ -37,5 +37,7 @@ char decoder_charactere();
 void decoder_mapr();
 void coder_touches(lance_bombe j);
 char* get_pack_touche();
+void coder_charactere();
+void coder_charactere(char charactere);
 #endif // F_MAP_H_INCLUDED
 

@@ -58,6 +58,7 @@ int main()
     INITIALISER_FONT(font_scores,"ALGER",int(TAILLE_BLOCY));
 
     char test[256]="Connexion_reussie";
+    char test2[64]="Map recue";
 
     init_w(IP);
     init_soc_receptrice();
@@ -66,10 +67,14 @@ int main()
     decoder_map(recevoir_msg());
     cout<<test<<endl;
 
+
+
+    envoyer_msg(test2);
+    cout<<test2<<", la partie peut commencer"<<endl;
+
     al_start_timer(timer);
     while(!fin)
     {
-        ESCAPE
         OBTENIRMOUSEETKEY
         al_clear_to_color(beigef);
         recevoir_packet(recevoir_msg());
@@ -77,6 +82,15 @@ int main()
         if(!fin)
         {
             coder_touches(joueurs[1]);
+            if(touche_appuyee(TOUCHE_QUITTER))
+            {
+                coder_charactere('F');
+                fin=1;
+            }
+            else
+            {
+                coder_charactere('C');
+            }
             envoyer_msg(get_pack_touche());
 
             afficher_map();

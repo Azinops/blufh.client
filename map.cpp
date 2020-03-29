@@ -693,7 +693,6 @@ int decoder_packet(lance_bombe j[NBRE_JOUEURS-1])
     {
         f=1;
     }
-    n_decode=0;
     return f;
 }
 void coder_touches(lance_bombe j)
@@ -710,4 +709,8 @@ void coder_touches(lance_bombe j)
 char* get_pack_touche()
 {
     return PACKET_TOUCHES;
+}
+void coder_charactere(char charactere)
+{
+    PACKET_TOUCHES[n_encode]=charactere;
 }

@@ -63,6 +63,7 @@
 		<Unit filename="souris_clavier.cpp" />
 		<Unit filename="souris_clavier.h" />
 		<Unit filename="v_affichage.h" />
+		<Unit filename="v_fonctions.h" />
 		<Unit filename="v_souris_clavier.h" />
 		<Unit filename="variables_main.h" />
 		<Extensions>

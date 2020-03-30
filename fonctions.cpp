@@ -10,6 +10,7 @@
 #include <allegro5/allegro_image.h>
 #include <math.h>
 #include "fonctions.h"
+#include "v_fonctions.h"
 int roundi(double variable)
 {
      return int(variable+0.5);
@@ -110,13 +111,25 @@ int bool_to_int(bool v)
 }
 double get_fps()
 {
-
+    return fps;
 }
 int get_n_cases_x()
 {
-
+    return n_cases_x;
 }
 int get_n_cases_y()
 {
-
+    return n_cases_y;
+}
+void changer_fps(double nfps)
+{
+    fps=nfps;
+}
+void changer_n_cases_x(int nn_cases_x)
+{
+    n_cases_x=nn_cases_x;
+}
+void changer_n_cases_y(int nn_cases_y)
+{
+    n_cases_y=nn_cases_y;
 }

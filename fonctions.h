@@ -17,7 +17,8 @@
 
 #define TAILLE_ECRITUR_SCORE 42
 
-#define FPS 50.00
+#define FPS get_fps()
+#define FPS_DEFAUT 50.00
 
 #define OBTENIRMOUSEETKEY al_get_mouse_state(&mouse);\
                          al_get_keyboard_state(&key);
@@ -63,9 +64,6 @@
     queue=al_create_event_queue();\
     if(!queue)\
         erreur("al_create_event_queue()");\
-    timer=al_create_timer((1.0/FPS));\
-    if(!timer)\
-        erreur("al_create_timer()");\
     ALLEGRO_KEYBOARD_STATE key;\
     ALLEGRO_MOUSE_STATE mouse;\
     ALLEGRO_COLOR vertc =al_map_rgba(165,230,20,255);\
@@ -87,7 +85,6 @@
     ALLEGRO_COLOR beige =al_map_rgba(234,193,138,255);\
     ALLEGRO_COLOR beigef =al_map_rgba(200,160,100,255);\
     al_register_event_source(queue,al_get_keyboard_event_source());\
-    al_register_event_source(queue,al_get_timer_event_source(timer));\
     al_register_event_source(queue,al_get_mouse_event_source());\
     al_clear_to_color(noir);\
     al_flip_display();\
@@ -138,5 +135,8 @@ int bool_to_int(bool v);
 double get_fps();
 int get_n_cases_x();
 int get_n_cases_y();
+void changer_fps(double nfps);
+void changer_n_cases_x(int nn_cases_x);
+void changer_n_cases_y(int nn_cases_y);
 #endif // FONCTIONS_H_INCLUDED
 

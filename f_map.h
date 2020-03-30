@@ -39,5 +39,6 @@ void coder_touches(lance_bombe j);
 char* get_pack_touche();
 void coder_charactere();
 void coder_charactere(char charactere);
+void decoder_donnees(char* donnes);
 #endif // F_MAP_H_INCLUDED
 

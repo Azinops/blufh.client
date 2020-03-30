@@ -866,10 +866,10 @@
 	<math.h>
 	"fonctions.h"
 
-1585565942 c:\users\edgar\desktop\tout\programmation\blufh.client\fonctions.h
+1585592650 c:\users\edgar\desktop\tout\programmation\blufh.client\fonctions.h
 	<sstream>
 
-1585330063 c:\users\edgar\desktop\tout\programmation\blufh.client\define_info.h
+1585591933 c:\users\edgar\desktop\tout\programmation\blufh.client\define_info.h
 
 1573398386 c:\users\edgar\desktop\tout\programmation\blufh.client\v_affichage.h
 	"Classes.h"
@@ -881,11 +881,11 @@
 	"define_info.h"
 	"f_map.h"
 
-1585422927 c:\users\edgar\desktop\tout\programmation\blufh.client\f_map.h
+1585581924 c:\users\edgar\desktop\tout\programmation\blufh.client\f_map.h
 	"define_info.h"
 	"Classes.h"
 
-1585502351 source:c:\users\edgar\desktop\tout\programmation\blufh.client\client_sockets.cpp
+1585582636 source:c:\users\edgar\desktop\tout\programmation\blufh.client\client_sockets.cpp
 	"client_sockets.h"
 	"sockets.h"
 
@@ -895,7 +895,7 @@
 	<iostream>
 	"sockets.h"
 
-1585519521 c:\users\edgar\desktop\tout\programmation\blufh.client\sockets.h
+1585583101 c:\users\edgar\desktop\tout\programmation\blufh.client\sockets.h
 
 1584646762 source:c:\users\edgar\desktop\tout\programmation\blufh.client\collisions.cpp
 
@@ -906,7 +906,7 @@
 1585261332 c:\users\edgar\desktop\tout\programmation\blufh.client\f_main.h
 	"Classes.h"
 
-1585330383 source:c:\users\edgar\desktop\tout\programmation\blufh.client\fonctions.cpp
+1585567487 source:c:\users\edgar\desktop\tout\programmation\blufh.client\fonctions.cpp
 	<stdio.h>
 	<time.h>
 	<iostream>
@@ -919,6 +919,7 @@
 	<allegro5/allegro_image.h>
 	<math.h>
 	"fonctions.h"
+	"v_fonctions.h"
 
 1584886096 source:c:\users\edgar\desktop\tout\programmation\blufh.client\get.cpp
 	"Classes.h"
@@ -932,7 +933,7 @@
 	"affichage.h"
 	"define_info.h"
 
-1585508242 source:c:\users\edgar\desktop\tout\programmation\blufh.client\map.cpp
+1585592071 source:c:\users\edgar\desktop\tout\programmation\blufh.client\map.cpp
 	"map.h"
 	"affichage.h"
 	<allegro5/allegro.h>
@@ -945,10 +946,11 @@
 	"fonctions.h"
 	"Classes.h"
 
-1585330048 c:\users\edgar\desktop\tout\programmation\blufh.client\map.h
+1585591529 c:\users\edgar\desktop\tout\programmation\blufh.client\map.h
 	<allegro5/allegro.h>
 	"define_info.h"
 	"Classes.h"
+	"fonctions.h"
 
 1585330970 source:c:\users\edgar\desktop\tout\programmation\blufh.client\souris_clavier.cpp
 	<iostream>
@@ -974,7 +976,7 @@
 1573837824 c:\users\edgar\desktop\tout\programmation\blufh.client\v_souris_clavier.h
 	"souris_clavier.h"
 
-1585565472 source:c:\users\edgar\desktop\tout\programmation\blufh.client\main.cpp
+1585592659 source:c:\users\edgar\desktop\tout\programmation\blufh.client\main.cpp
 	<iostream>
 	<stdio.h>
 	<time.h>
@@ -1011,5 +1013,8 @@
 	<allegro5/allegro_primitives.h>
 	<allegro5/allegro_image.h>
 	<math.h>
+	"define_info.h"
+
+1585592006 c:\users\edgar\desktop\tout\programmation\blufh.client\v_fonctions.h
 	"define_info.h"
 

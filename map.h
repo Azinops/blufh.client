@@ -3,8 +3,9 @@
 #include <allegro5/allegro.h>
 #include "define_info.h"
 #include "Classes.h"
+#include "fonctions.h"
 
-int MAP[N_CASES_Y+1][N_CASES_X+1];
+int MAP[N_CASE_MAX_Y+1][N_CASE_MAX_X+1];
 ALLEGRO_BITMAP* iBlocs[NI_BLOCS+2];
 double xim_bloc;
 double yim_bloc;

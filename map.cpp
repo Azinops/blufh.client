@@ -714,3 +714,11 @@ void coder_charactere(char charactere)
 {
     PACKET_TOUCHES[n_encode]=charactere;
 }
+void decoder_donnees(char* donnes)
+{
+    int i=0;
+    double nf=decoder_double(donnes,i);
+    changer_fps(nf);i+=NBRE_CHIFFRE_CODAGE_DOUBLE;
+    changer_n_cases_x(decoder_int(donnes,i));i+=NBRE_CHIFFRE_CODAGE_INT;
+    changer_n_cases_y(decoder_int(donnes,i));i+=NBRE_CHIFFRE_CODAGE_INT;
+}

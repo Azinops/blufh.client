@@ -28,8 +28,10 @@
 #define COULEUR_SCORE al_map_rgb(156,30,130)
 
 //--MAP---
-#define N_CASES_X 25    // opti : 25
-#define N_CASES_Y 13    // opti : 13
+#define N_CASES_X get_n_cases_x()    // opti : 25
+#define N_CASES_Y get_n_cases_y()    // opti : 13
+#define N_CASE_MAX_X 200
+#define N_CASE_MAX_Y 100
 #define TAILLE_BLOCX XBASED/double(N_CASES_X)
 #define TAILLE_BLOCY YBASED/double(N_CASES_Y)
 #define COEF_LAB1 25 // opti : 25

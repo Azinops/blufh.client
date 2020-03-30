@@ -2,39 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="souris_clavier.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3854" topLine="160" />
-		</Cursor>
-	</File>
-	<File name="affichage.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1460" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="f_main.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="803" topLine="14" />
-		</Cursor>
-	</File>
-	<File name="f_main.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="469" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="f_map.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1497" topLine="1" />
-		</Cursor>
-	</File>
 	<File name="Classes.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="871" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Initialisations.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3645" topLine="120" />
 		</Cursor>
 	</File>
 	<File name="client_sockets.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -47,6 +17,11 @@
 			<Cursor1 position="2337" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="f_main.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="469" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="souris_clavier.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1208" topLine="0" />
@@ -57,24 +32,34 @@
 			<Cursor1 position="504" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="client_sockets.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="affichage.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="6884" topLine="207" />
+			<Cursor1 position="1460" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="fonctions.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="map.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="5394" topLine="84" />
+			<Cursor1 position="16797" topLine="669" />
 		</Cursor>
 	</File>
-	<File name="map.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="souris_clavier.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="16723" topLine="668" />
+			<Cursor1 position="3854" topLine="160" />
 		</Cursor>
 	</File>
-	<File name="fonctions.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="client_sockets.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2225" topLine="68" />
+			<Cursor1 position="6884" topLine="199" />
+		</Cursor>
+	</File>
+	<File name="Initialisations.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3645" topLine="120" />
+		</Cursor>
+	</File>
+	<File name="fonctions.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="432" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="get.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -82,19 +67,19 @@
 			<Cursor1 position="2464" topLine="102" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2806" topLine="61" />
-		</Cursor>
-	</File>
 	<File name="Classes.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="5870" topLine="367" />
 		</Cursor>
 	</File>
-	<File name="map.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="fonctions.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="314" topLine="0" />
+			<Cursor1 position="2225" topLine="68" />
+		</Cursor>
+	</File>
+	<File name="f_main.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="803" topLine="14" />
 		</Cursor>
 	</File>
 	<File name="affichage.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -102,10 +87,25 @@
 			<Cursor1 position="5558" topLine="137" />
 		</Cursor>
 	</File>
-	<File name="sockets.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="f_map.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="156" topLine="0" />
+			<Cursor1 position="1497" topLine="1" />
 		</Cursor>
 	</File>
-	<EditorTabsLayout layout="089a67a05e7f9da3000032e500000002=*0;Blufh_client:main.cpp,1;Blufh_client:sockets.h,2;Blufh_client:client_sockets.cpp,3;Blufh_client:f_map.h,4;Blufh_client:map.cpp,5;Blufh_client:fonctions.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=089a67a05e7f9da3000032e500000002;caption=;state=2098172;dir=5;layer=1;row=0;pos=0;prop=100000;bestw=852;besth=372;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,1,0)=854|" />
+	<File name="sockets.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="127" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="9" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2856" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="map.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="314" topLine="0" />
+		</Cursor>
+	</File>
+	<EditorTabsLayout layout="0c8e41c05e810d2b001377d900000003=*8;Blufh_client:main.cpp,9;Blufh_client:sockets.h,10;Blufh_client:map.cpp,11;Blufh_client:fonctions.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=0c8e41c05e810d2b001377d900000003;caption=;state=2098172;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,0,0)=840|dock_size(5,1,0)=854|" />
 </CodeBlocks_layout_file>

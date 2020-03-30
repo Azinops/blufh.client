@@ -108,3 +108,15 @@ int bool_to_int(bool v)
         return 0;
     }
 }
+double get_fps()
+{
+
+}
+int get_n_cases_x()
+{
+
+}
+int get_n_cases_y()
+{
+
+}

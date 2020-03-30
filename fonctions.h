@@ -135,5 +135,8 @@ int n_ieme_chiffrem(double nombre,int n);
 int n_ieme_chiffremi(int nombre,int n);
 double absd(double a);
 int bool_to_int(bool v);
+double get_fps();
+int get_n_cases_x();
+int get_n_cases_y();
 #endif // FONCTIONS_H_INCLUDED
 

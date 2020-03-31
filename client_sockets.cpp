@@ -145,7 +145,7 @@ char* recevoir_msg_serveur()
         else
             printf("\naccept      : OK");
     }
-    nombre_de_caractere=recv(id_de_la_nouvelle_socket,buffer,1515,0);
+    nombre_de_caractere=recv(id_de_la_nouvelle_socket,buffer,NBRE_CHARACTERE_MAX,0);
     if (nombre_de_caractere==SOCKET_ERROR)
     {
         if(AFFICHER_MSG)

@@ -121,7 +121,6 @@ char* recevoir_msg_client()
     {
         buffer[nombre_de_caractere]=0; // Permet de fermer le tableau après le contenu des data, car la fonction recv ne le fait pas
     }
-    closesocket(id_de_la_socket);
     return buffer;
 }
 char* recevoir_msg_serveur()

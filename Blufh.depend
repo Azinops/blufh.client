@@ -885,7 +885,7 @@
 	"define_info.h"
 	"Classes.h"
 
-1585582636 source:c:\users\edgar\desktop\tout\programmation\blufh.client\client_sockets.cpp
+1585653838 source:c:\users\edgar\desktop\tout\programmation\blufh.client\client_sockets.cpp
 	"client_sockets.h"
 	"sockets.h"
 
@@ -976,12 +976,13 @@
 1573837824 c:\users\edgar\desktop\tout\programmation\blufh.client\v_souris_clavier.h
 	"souris_clavier.h"
 
-1585592659 source:c:\users\edgar\desktop\tout\programmation\blufh.client\main.cpp
+1585594404 source:c:\users\edgar\desktop\tout\programmation\blufh.client\main.cpp
 	<iostream>
 	<stdio.h>
 	<time.h>
 	<stdlib.h>
 	<string>
+	<fstream>
 	<allegro5/allegro.h>
 	<allegro5/allegro_native_dialog.h>
 	<allegro5/allegro_font.h>
